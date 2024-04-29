@@ -1,0 +1,52 @@
+
+nav{
+    padding: 10px 20px;
+    display: flex;
+    align-items:center;
+    gap: 20%;
+    background-color: rgb(151, 8, 8);
+}
+
+.Navbutton{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(17, 85, 85);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 2px rgb(54, 53, 53);
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    gap: 20%;
+    font-size: 20px;
+    font-style: bold;
+ 
+
+}
+.navlist li:hover{
+    cursor: pointer;
+    text-decoration: underline black;
+    color: springgreen;
+    transition: all ease 0.1s;
+}
+.navlist2{
+    list-style: none;
+    background-color: black;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.navlist2 li{
+    border-bottom:  solid rgb(122, 116, 116);
+    padding: 5px;
+}
+
+.maindiv{
+    background-color: aqua;
+    text-align: center;
+    height: 100vh;
+}
